@@ -14,7 +14,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/karolis879/02-projektas-kosmonautas/
+Site published at: https://github.com/karolis879/06-valtis/
 
 Design: [Web design](https://freebiefy.com/free-404-page-design/)
 
@@ -47,7 +47,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/karolis879/02-projektas-kosmonautas.git
+    git clone https://github.com/karolis879/06-valtis.git
     ```
 2. Install NPM packages
     ```sh
