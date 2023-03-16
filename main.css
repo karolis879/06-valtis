@@ -1,0 +1,86 @@
+body {
+    background-color: white;
+    @import url(https://fonts.googleapis.com/css?family=Arvo:regular,italic,700,700italic);
+    font-family: Arvo, sans-serif;
+    border: 10px solid black;
+    border-radius: 40px;
+    color: rgb(70, 70, 70);
+    margin-top: 40px;
+}
+
+.container {
+    width: 1200px;
+    margin-left: calc((100% - 1200px) / 2);
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.logo {
+    height: 60px;
+    width: 120px;
+    object-fit: contain;
+    object-position: left;
+}
+
+.main-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.main-nav > .link {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+.main-nav > .link:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+    flex-direction:column;
+    
+}
+
+.main-column {
+    width: 100%;
+    margin: 0;
+}
+
+.title {
+    font-size: 150px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.text {
+    font-size: 12px;
+    margin:0
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    margin-top: 40px;
+    padding: 13px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.main-img {
+    width: 20%;
+    margin-left: 70%;
+    margin-top: 40px;
+    padding-bottom: 70px;
+}   
